@@ -1,0 +1,31 @@
+.new_message {
+    position: absolute;
+    bottom: 15px;
+}
+
+.chat {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    background-color: white;
+}
+
+.me {
+    align-self: flex-end;
+    background-color: #d1e7dd;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    max-width: 60%;
+    word-wrap: break-word;
+}
+
+.you {
+    align-self: flex-start;
+    background-color: #f8d7da;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    max-width: 60%;
+    word-wrap: break-word;
+}
