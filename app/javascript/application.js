@@ -2,11 +2,13 @@
 //= require jquery3
 //= require popper
 //= require bootstrap
-import "@hotwired/turbo-rails"
-import "controllers"
+require("packs/jquery.raty")
+import $ from "jquery"
+window.$ = $
+// Ratyのインポートと設定
 import Raty from "./raty.js"
-window.raty = function(elem,opt) {
-  let raty =  new Raty(elem,opt)
+window.raty = function(elem, opt) {
+  let raty = new Raty(elem, opt);
   raty.init();
   return raty;
 }
