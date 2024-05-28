@@ -2,7 +2,7 @@
 # exit on error
 set -o errexit
 
-brew install postgresql
+apt-get update && apt-get install -y libpq-dev
 bundle install
 bundle exec rails assets:precompile
 bundle exec rails db:migrate
