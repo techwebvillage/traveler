@@ -1,0 +1,18 @@
+current directory: /Users/nozaki/Desktop/traveler/vendor/bundle/ruby/3.1.0/gems/racc-1.7.3/ext/racc/cparse
+/Users/nozaki/.rbenv/versions/3.1.2/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/nozaki/Desktop/traveler/vendor/bundle/ruby/3.1.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240528-2581-sjo31m sitelibdir\=./.gem.20240528-2581-sjo31m clean
+
+current directory: /Users/nozaki/Desktop/traveler/vendor/bundle/ruby/3.1.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240528-2581-sjo31m sitelibdir\=./.gem.20240528-2581-sjo31m
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+
+current directory: /Users/nozaki/Desktop/traveler/vendor/bundle/ruby/3.1.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240528-2581-sjo31m sitelibdir\=./.gem.20240528-2581-sjo31m install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20240528-2581-sjo31m/racc
+
+current directory: /Users/nozaki/Desktop/traveler/vendor/bundle/ruby/3.1.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240528-2581-sjo31m sitelibdir\=./.gem.20240528-2581-sjo31m clean

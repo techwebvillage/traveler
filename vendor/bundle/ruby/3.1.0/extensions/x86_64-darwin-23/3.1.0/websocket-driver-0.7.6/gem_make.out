@@ -1,0 +1,18 @@
+current directory: /Users/nozaki/Desktop/traveler/vendor/bundle/ruby/3.1.0/gems/websocket-driver-0.7.6/ext/websocket-driver
+/Users/nozaki/.rbenv/versions/3.1.2/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/nozaki/Desktop/traveler/vendor/bundle/ruby/3.1.0/gems/websocket-driver-0.7.6/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20240528-2581-a8tpp sitelibdir\=./.gem.20240528-2581-a8tpp clean
+
+current directory: /Users/nozaki/Desktop/traveler/vendor/bundle/ruby/3.1.0/gems/websocket-driver-0.7.6/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20240528-2581-a8tpp sitelibdir\=./.gem.20240528-2581-a8tpp
+compiling websocket_mask.c
+linking shared-object websocket_mask.bundle
+
+current directory: /Users/nozaki/Desktop/traveler/vendor/bundle/ruby/3.1.0/gems/websocket-driver-0.7.6/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20240528-2581-a8tpp sitelibdir\=./.gem.20240528-2581-a8tpp install
+/usr/bin/install -c -m 0755 websocket_mask.bundle ./.gem.20240528-2581-a8tpp
+
+current directory: /Users/nozaki/Desktop/traveler/vendor/bundle/ruby/3.1.0/gems/websocket-driver-0.7.6/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20240528-2581-a8tpp sitelibdir\=./.gem.20240528-2581-a8tpp clean
