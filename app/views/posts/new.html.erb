@@ -12,7 +12,7 @@
       </div>
     <% end %>
     <div class="row mt-5">
-      <%= form_with model: @post, url:'/posts', local:true do |f| %>
+      <%= form_with model: @post, local:true do |f| %>
       <%= f.hidden_field :user_id, value: current_user.id %>
       <div class="form-group mb-3">
         <label class="form-label">【旅行先】</label>
