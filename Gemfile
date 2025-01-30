@@ -90,3 +90,6 @@ gem 'kaminari'
 gem 'enum_help'
 
 gem 'devise-i18n'
+
+gem 'cloudinary'
+gem 'carrierwave'

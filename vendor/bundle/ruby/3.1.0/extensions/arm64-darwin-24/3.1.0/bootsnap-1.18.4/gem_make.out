@@ -1,0 +1,19 @@
+current directory: /Users/nozaki/Documents/カリキュラム/traveler/vendor/bundle/ruby/3.1.0/gems/bootsnap-1.18.4/ext/bootsnap
+/Users/nozaki/.rbenv/versions/3.1.2/bin/ruby -I /Users/nozaki/.rbenv/versions/3.1.2/lib/ruby/3.1.0 -r ./siteconf20250130-21197-p5o2u6.rb extconf.rb
+checking for fdatasync() in unistd.h... yes
+checking for whether -D_GNU_SOURCE is accepted as CPPFLAGS... yes
+checking for whether -O3 is accepted as CFLAGS... yes
+checking for whether -std=c99 is accepted as CFLAGS... yes
+creating Makefile
+
+current directory: /Users/nozaki/Documents/カリキュラム/traveler/vendor/bundle/ruby/3.1.0/gems/bootsnap-1.18.4/ext/bootsnap
+make DESTDIR\= clean
+
+current directory: /Users/nozaki/Documents/カリキュラム/traveler/vendor/bundle/ruby/3.1.0/gems/bootsnap-1.18.4/ext/bootsnap
+make DESTDIR\=
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/nozaki/Documents/カリキュラム/traveler/vendor/bundle/ruby/3.1.0/gems/bootsnap-1.18.4/ext/bootsnap
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20250130-21197-ol9g8w/bootsnap
