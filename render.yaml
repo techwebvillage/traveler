@@ -1,7 +1,7 @@
 databases:
   - name: traveler
-    databaseName: traveler_qise
-    user: user
+    databaseName: traveler_xuvs
+    user: traveler_xuvs_user
     region: Oregon
 
 services:
